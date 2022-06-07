@@ -24,5 +24,7 @@ public class OptionalDemo {
         Optional.ofNullable(user).ifPresent(t -> t = new User(2));
         System.out.println(user.getAge());
 
+
+
     }
 }
